@@ -1,0 +1,150 @@
+/* Style for body and container */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style for input box */
+#input-box {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #3a3a3a;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Style for paragraphs */
+p {
+    margin: 10px 0;
+}
+
+/* Style for the buttons */
+.button {
+    background-color: #10FF04;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #10FF04;
+}
+
+/* Style for the API response input */
+.api-response {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #3a3a3a;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Style for button containers */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.button-container .button-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.discord-button {
+    background-color: #FF1C00;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.discord-button:hover {
+    background-color: #FF1C00;
+}
+
+/* Style for button containers */
+.discord-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.discord-container .discord-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+/* Style for the footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #ccc;
+    font-size: 14px;
+}
+
+/* Style for the highlighted text */
+.highlight-black {
+    color: #fff;
+}
+
+#bypass-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #10FF04;
+    text-align: center;
+    margin-bottom: 20px;
+    animation: fadeInOut 3s infinite;
+}
+
+/* Fade in and out animation */
+@keyframes fadeInOut {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
+}
